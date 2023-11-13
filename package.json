@@ -1,0 +1,17 @@
+{
+  "name": "frontend-mentors",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "tailwind:watch": "tailwindcss -i ./src/challenge-1/styles/input.css -o ./src/challenge-1/styles/output.css --watch"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "prettier": "^3.1.0",
+    "prettier-plugin-tailwindcss": "^0.5.7",
+    "tailwindcss": "^3.3.5"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
